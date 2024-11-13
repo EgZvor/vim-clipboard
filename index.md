@@ -188,6 +188,7 @@ To paste from the clipboard to a line below, type this:
 
 ## Reference links
 
+- [Repository](https://github.com/EgZvor/vim-clipboard)
 - [Vim help](https://vimhelp.org/helphelp.txt.html#helphelp)
 - [Vim Fandom Wiki](https://vim.fandom.com/wiki/Accessing_the_system_clipboard)
 - More on registers in [Vim help](https://vimhelp.org/change.txt.html#registers).
