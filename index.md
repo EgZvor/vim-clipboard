@@ -2,7 +2,12 @@
 
 This guide assumes you know the *basics* of Vim.
 
-**Warning:** for now this guide is for **Vim** only, not **Neovim**.
+## Environment support
+
+If you're on **Linux** I assume you use X11.
+That doesn't mean the guide will not work on Wayland.
+
+For now this guide is for **Vim** only, not **Neovim**.
 Even though the usage is the same, the inner workings are quite different.
 The good news is that in Neovim there shouldn't be a need to set anything up
 as far as I know, so you can skip to [The `+` register](#the-register).
@@ -114,9 +119,9 @@ to copy text from cursor position up to the end of the file.
 
 ## Copying/pasting over SSH
 
-Native clipboard support does not work over SSH.
+To make native clipboard support work over SSH on **Linux** you need to enable X11 forwarding.
 
-Solutions:
+Alternative solutions:
 
 - [vim-oscyank](https://github.com/ojroques/vim-oscyank)
 - `rsync` your files

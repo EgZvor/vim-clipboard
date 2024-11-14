@@ -12,3 +12,8 @@ to share with people just starting using Vim. Also I wanted it to be easily ✨c
 Q: You're wrong! ...
 
 A: Please, create an issue to discuss why.
+
+# TODO
+
+- Add a table of supported environments.
+- Check Wayland support.
