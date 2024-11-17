@@ -44,7 +44,7 @@ If you're using **Windows** Subsystem for Linux also
 ### How to enable clipboard support
 
 On Linux distributions there are usually multiple Vim packages provided:
-some minimal, some more feature-rich.
+some minimal, some more feature-rich. See [`:h W24`](https://vimhelp.org/gui_x11.txt.html#W24).
 
 For example, on **Arch Linux** there are `vim` and `gvim` packages.
 The second not only includes the GUI version of Vim,
