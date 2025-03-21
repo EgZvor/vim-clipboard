@@ -41,6 +41,12 @@ It outputs all the optional features along with an indicator:
 If you're using **Windows** Subsystem for Linux also
 [ensure it has X11 support](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps).
 
+If you're using **macOS** make sure you **do not** have X11 support
+
+```
+:echo has('X11')
+```
+
 ### How to enable clipboard support
 
 On Linux distributions there are usually multiple Vim packages provided:
@@ -81,7 +87,7 @@ The default register is always populated,
 even if you specify another register.
 
 Registers related to clipboard are `*` and `+`.
-On **Mac** and **Windows** those are the same.
+On **macOS** and **Windows** those are the same.
 On **Linux** `*` and `+` correspond to PRIMARY and CLIPBOARD selections.
 
 For example, select some text with a mouse in a browser,
