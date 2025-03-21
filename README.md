@@ -2,7 +2,7 @@
 
 Q: Where is the guide?
 
-A: [clipboard.md](./clipboard.md)
+A: [index.md](./index.md)
 
 Q: Why another guide?
 
